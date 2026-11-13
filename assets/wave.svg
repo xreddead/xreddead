@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="55" viewBox="0 0 800 55" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22" stop-opacity="0" />
+      <stop offset="50%" stop-color="#6e7681" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <path d="M0,25 Q200,5 400,25 T800,25 L800,55 L0,55 Z" fill="url(#waveGrad)" opacity="0.35">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+        M0,25 Q200,5 400,25 T800,25 L800,55 L0,55 Z;
+        M0,25 Q200,45 400,25 T800,25 L800,55 L0,55 Z;
+        M0,25 Q200,5 400,25 T800,25 L800,55 L0,55 Z" />
+  </path>
+  <path d="M0,25 Q200,5 400,25 T800,25" fill="none" stroke="url(#waveGrad)" stroke-width="2">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="
+        M0,25 Q200,5 400,25 T800,25;
+        M0,25 Q200,45 400,25 T800,25;
+        M0,25 Q200,5 400,25 T800,25" />
+  </path>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="50" viewBox="0 0 580 50">
+  <style>
+    .text {
+      font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+      font-size: 20px;
+      font-weight: 600;
+      fill: #E2E8F0;
+    }
+    .line1 {
+      animation: anim1 8s steps(30, end) infinite;
+    }
+    .line2 {
+      animation: anim2 8s steps(38, end) infinite;
+    }
+    @keyframes anim1 {
+      0%, 5% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      20%, 45% { opacity: 1; clip-path: inset(0 0 0 0); }
+      50%, 100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes anim2 {
+      0%, 50% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      55% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      70%, 95% { opacity: 1; clip-path: inset(0 0 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+  </style>
+  <text x="50%" y="32" text-anchor="middle" class="text line1">🌑 xreddead // ml engineer</text>
+  <text x="50%" y="32" text-anchor="middle" class="text line2">math, algorithms &amp; neural architectures</text>
+</svg>
